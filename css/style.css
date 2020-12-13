@@ -1,0 +1,26 @@
+a {
+    position: fixed;
+    left: calc(50% - 40px);
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.363);
+    mix-blend-mode: difference;
+    top:2%;
+}
+
+h1{
+
+    color:white;
+    position :fixed;
+    left:35%;
+    top:45%;
+
+}
+
+h2{
+
+    color:white;
+    position :fixed;
+    left:40%;
+    top:55%;
+
+}
