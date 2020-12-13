@@ -4,11 +4,11 @@
     --size: 15;
     --upp: 1vmin;
     --unit: calc((var(--size) / 100) * var(--upp));
-    --message:"Happy Birthday MPD! Always Stay Happy, Creative & Blessed :)";
+    --message:"Happy Birthday MPD! Stay Happy, Creative & Blessed :)";
     --msg-transform:uppercase;
     --msg-indent-start:110%;
     --msg-indent-end:-110%;
-    --msg-duration:14s;
+    --msg-duration:12s;
     --msg-steps:80;
     --blink-duration:0.5s;
     --blink-steps:2;
