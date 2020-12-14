@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HBD Dharshini</title>
+  <link rel="stylesheet" href="css/style6.css">
+  <style>
+    #audio{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  
+}
+
+#playVideo {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  font-size:50px;
+}
+  </style>
+</head>
+<body>
+  <div id="audio">
+   
+    <button type="button" onclick="aud()" id="playVideo">&#9658;</button>
+</div>
+<div id="fly-in" style="display:none">
+<h1>Happy Birthday MPD 	&#10084;&#10084;</h1>
+<p>Hi MPD... First of all, Thanks to Ari for planning and</p>
+<p>involving all of us in this surprise game (gift).</p>
+<p>Namma epdi sandichom, frnds aanom la thaandi ..</p>
+<p>Ippodhum & eppodhum namma moonu perum orutharukoruthar</p>
+<p>vittu kudukkaama, neringiya nanbargal ah ve  irukkanum</p>
+<p>and iruppom nu naan namburen. Life ah nalla enjoy pannu.</p>
+<p>Melum un future nee nenacha maari amanju,</p>
+<p>nee sandoshama irukka en manamarndha vazhthukkal.</p>
+<p>நலம் வாழ எந்நாளும் என் வாழ்த்துக்கள்</p>
+<p>தமிழ் கூறும் பல்லாண்டு என் வார்த்தைகள்</p>
+<p>இளவேனில் உன் வாசல் வந்தாடும்</p>
+<p>இளந் தென்றல் உன் மீது பண்பாடும்</p>
+<P>இனிய பிறந்த நாள் வாழ்த்துக்கள் 🎂🎂</P>
+<p>- அன்பு சகோதரன்.</p>
+</div>
+
+<div id='audi' style="visibility:hidden;">
+
+</div>
+
+<script>
+function aud()
+{
+document.getElementById('audi').innerHTML="<iframe src=\"last.mp3\"></iframe>";
+document.getElementById('audio').style.display="none";
+document.getElementById('fly-in').style.display="block";
+}
+
+  </script>
+</body>
+</html>
